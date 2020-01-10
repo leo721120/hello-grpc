@@ -1,0 +1,26 @@
+{
+  "name": "@leo/hello-grpc",
+  "version": "0.0.0",
+  "description": "example for gRPC",
+  "scripts": {
+    "build": "tsc",
+    "start": "node lib/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leo721120/hello-grpc.git"
+  },
+  "author": "leojan@alum.ccu.edu.tw",
+  "bugs": {
+    "url": "https://github.com/leo721120/hello-grpc/issues"
+  },
+  "homepage": "https://github.com/leo721120/hello-grpc#readme",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.3",
+    "grpc": "^1.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.6",
+    "typescript": "^3.7.4"
+  }
+}
